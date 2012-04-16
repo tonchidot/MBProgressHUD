@@ -257,9 +257,14 @@ typedef enum {
 @property (copy) NSString *detailsLabelText;
 
 /** 
- * The opacity of the HUD window. Defaults to 0.9 (90% opacity). 
+ * The opacity of the HUD window. Defaults to 0.8 (80% opacity). 
  */
 @property (assign) float opacity;
+
+/**
+ * The fill color of the HUD window. Defaults to 0.0 (black)
+ */
+@property (assign) float windowGrayColor;
 
 /** 
  * The x-axis offset of the HUD relative to the centre of the superview. 
